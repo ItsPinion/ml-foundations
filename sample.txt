@@ -1,0 +1,5 @@
+Python is simple
+Files persist data
+Reading files is essential
+This is line four
+End of file
