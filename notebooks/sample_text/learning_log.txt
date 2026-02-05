@@ -1,1 +1,3 @@
-Initialized
+InitializedDay 17: Python
+[Day 17] Learned file writing
+[Day 17] Implemented file writing exercises
