@@ -6,10 +6,10 @@ This repository represents my **Month 1 foundations phase** focused on building 
 
 The objective of this phase was not advanced machine learning, but to establish a **reliable technical base** required for ML, research, and backend‑oriented roles:
 
-* Write clear, correct Python code
-* Develop consistency through daily commits
-* Practice algorithmic thinking via LeetCode
-* Maintain documentation that is readable by reviewers
+- Write clear, correct Python code
+- Develop consistency through daily commits
+- Practice algorithmic thinking via LeetCode
+- Maintain documentation that is readable by reviewers
 
 This repository is intended to be **scanned quickly by recruiters or researchers** and understood without additional explanation.
 
@@ -19,37 +19,37 @@ This repository is intended to be **scanned quickly by recruiters or researchers
 
 ### Python Programming
 
-* Core syntax: variables, conditionals, loops
-* Data structures: lists, dictionaries, tuples, sets
-* Functions: parameters, return values, defaults
-* String manipulation and validation
+- Core syntax: variables, conditionals, loops
+- Data structures: lists, dictionaries, tuples, sets
+- Functions: parameters, return values, defaults
+- String manipulation and validation
 
 ### Code Quality & Structure
 
-* Modular, readable notebooks
-* Clear naming conventions
-* Incremental refactoring and cleanup
-* Comments and basic docstrings where appropriate
+- Modular, readable notebooks
+- Clear naming conventions
+- Incremental refactoring and cleanup
+- Comments and basic docstrings where appropriate
 
 ### File I/O & Defensive Programming
 
-* Reading and writing files using `open()` and `with`
-* Safe handling of runtime errors using `try / except / finally`
-* Writing code that fails predictably rather than crashing
+- Reading and writing files using `open()` and `with`
+- Safe handling of runtime errors using `try / except / finally`
+- Writing code that fails predictably rather than crashing
 
 ### Tooling & Engineering Habits
 
-* Daily Git commits with meaningful messages
-* Consistent file and folder structure
-* Progressive improvement rather than one‑off scripts
-* Documentation as part of development, not an afterthought
+- Daily Git commits with meaningful messages
+- Consistent file and folder structure
+- Progressive improvement rather than one‑off scripts
+- Documentation as part of development, not an afterthought
 
 ### Problem Solving (LeetCode)
 
-* Arrays and strings
-* Two‑pointer techniques
-* Frequency counting and basic hash maps
-* Emphasis on clarity and correctness
+- Arrays and strings
+- Two‑pointer techniques
+- Frequency counting and basic hash maps
+- Emphasis on clarity and correctness
 
 ---
 
@@ -77,16 +77,16 @@ notebooks/
 
 Notebook descriptions:
 
-* [`python_basics.ipynb`](./notebooks/python_basics.ipynb) — Core Python syntax: variables, data types, conditionals, and loops. Establishes baseline fluency.
-* [`functions_basics.ipynb`](./notebooks/functions_basics.ipynb) — Function definitions, parameters, return values, and basic decomposition of logic.
-* [`oop_basics.ipynb`](./notebooks/oop_basics.ipynb) — Object-oriented programming concepts including classes, objects, and instance methods.
-* [`file_io_reading.ipynb`](./notebooks/file_io_reading.ipynb) — Reading files, file modes, and basic text processing using real input files.
-* [`error_handling.ipynb`](./notebooks/error_handling.ipynb) — Exception handling with `try / except / finally` and defensive programming patterns.
-* [`strings_deep_dive.ipynb`](./notebooks/strings_deep_dive.ipynb) — String manipulation, slicing, validation, and common string-based problem patterns.
+- [`python_basics.ipynb`](./notebooks/python_basics.ipynb) — Core Python syntax: variables, data types, conditionals, and loops. Establishes baseline fluency.
+- [`functions_basics.ipynb`](./notebooks/functions_basics.ipynb) — Function definitions, parameters, return values, and basic decomposition of logic.
+- [`oop_basics.ipynb`](./notebooks/oop_basics.ipynb) — Object-oriented programming concepts including classes, objects, and instance methods.
+- [`file_io_reading.ipynb`](./notebooks/file_io_reading.ipynb) — Reading files, file modes, and basic text processing using real input files.
+- [`error_handling.ipynb`](./notebooks/error_handling.ipynb) — Exception handling with `try / except / finally` and defensive programming patterns.
+- [`strings_deep_dive.ipynb`](./notebooks/strings_deep_dive.ipynb) — String manipulation, slicing, validation, and common string-based problem patterns.
 
 Supporting text and data files used by notebooks are stored in:
 
-* [`notebooks/sample_text/`](./notebooks/sample_text)
+- [`notebooks/sample_text/`](./notebooks/sample_text)
 
 ---
 
@@ -94,8 +94,8 @@ Supporting text and data files used by notebooks are stored in:
 
 ### Requirements
 
-* Python **3.10+**
-* Jupyter Notebook
+- Python **3.10+**
+- Jupyter Notebook
 
 ### Setup
 
@@ -130,11 +130,11 @@ ml-foundations/
 ├── README.md
 ```
 
-* [`notebooks/`](./notebooks) — Concept-driven Jupyter notebooks with explanations and examples
-* [`leetcode/`](./leetcode) — Algorithm and data-structure practice problems
-* [`modules/`](./modules) — Python module and package exercises
-* [`requirements.txt`](./requirements.txt) — Python dependencies
-* [`README.md`](./README.md) — Project documentation
+- [`notebooks/`](./notebooks) — Concept-driven Jupyter notebooks with explanations and examples
+- [`leetcode/`](./leetcode) — Algorithm and data-structure practice problems
+- [`modules/`](./modules) — Python module and package exercises
+- [`requirements.txt`](./requirements.txt) — Python dependencies
+- [`README.md`](./README.md) — Project documentation
 
 Each directory is intentionally scoped and self-contained.
 
@@ -165,18 +165,37 @@ Open any problem from the [`leetcode/`](./leetcode) directory.
 
 Solutions prioritize:
 
-* Correctness
-* Readable logic
-* Minimal but explicit implementation
+- Correctness
+- Readable logic
+- Minimal but explicit implementation
+
+---
+
+## Mini Project: Expense Tracker CLI
+
+**Status: Day 23 (Planning & Architecture) Complete**
+
+A lightweight command-line expense tracking application designed to practice core Python fundamentals in a real project context. The project focuses on:
+
+- Modular code structure (main.py, utils.py)
+- Input validation patterns
+- In-memory data management
+- Clean control flow and separation of concerns
+- Structured architecture planning
+
+See [`mini_project/plan.md`](./mini_project/plan.md) for complete architectural planning and design specifications.
+
+Implementation begins Day 24.
 
 ---
 
 ## Current Status
 
-* Month 1 foundations completed
-* ~20 LeetCode Easy problems solved
-* Multiple cleaned and refactored notebooks
-* Consistent commit history demonstrating discipline
+- Month 1 foundations completed
+- ~20 LeetCode Easy problems solved
+- Multiple cleaned and refactored notebooks
+- Mini project (Expense Tracker CLI) architected and planned
+- Consistent commit history demonstrating discipline
 
 This repository serves as a **baseline proof of fundamentals** and will be extended with data analysis, ML concepts, and projects in subsequent phases.
 
@@ -184,8 +203,8 @@ This repository serves as a **baseline proof of fundamentals** and will be exten
 
 ## Reviewer Notes
 
-* This repository focuses on **foundational correctness**, not advanced optimization
-* Code is written to be understandable rather than clever
-* Later repositories will demonstrate ML depth and system design
+- This repository focuses on **foundational correctness**, not advanced optimization
+- Code is written to be understandable rather than clever
+- Later repositories will demonstrate ML depth and system design
 
-The intent here is to show *how I build habits and foundations*, not to overstate experience.
+The intent here is to show _how I build habits and foundations_, not to overstate experience.
